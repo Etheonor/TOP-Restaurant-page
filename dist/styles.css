@@ -1,35 +1,42 @@
-.navbar {
+#navbar {
     margin: 0;
     padding: 0;
+
 }
 
-.navbar ul{
+#navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.50);
+    border : 3px  solid rgba(0, 0, 0, 0.5);
+    border-top: 0px;
+    border-left: 0px;
+    border-radius: 0px 0px 10px 0px;
+    position: sticky;
 }
 
-.menu li {
+#menu li {
     float: left;
     font-size: 18px;
     font-family : 'Roboto Slab'
 }
 
-.menu li a {
+#menu li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.menu li a:hover {
-    background-color: #111;
+#menu li a:hover {
+    background-color: rgba(51, 51, 51, 0.70);
 }
 
-.title {
+#title {
     color:white;
     font-size: 3em;
     text-align:center;
@@ -48,7 +55,7 @@ body {
     background-attachment: fixed;
 }
 
-.content {
+#content {
     background-color: rgba(0, 0, 0, 0.3);;
     color: white;
     padding: 25px;
@@ -58,7 +65,7 @@ body {
     font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
 }
 
-.wrapper {
+#wrapper {
     
     display: flex;
     flex-flow: row wrap;

@@ -1,5 +1,6 @@
 const pageCreator = (() => {
-    console.log("Hello World!")
+  let wrapper = document.getElementsByClassName('wrapper')
+
   })();
 
 export {pageCreator}

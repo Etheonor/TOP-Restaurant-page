@@ -1,13 +1,17 @@
 import {pageCreator} from './pageLoader'
+import {siteContent} from './pageContent'
 
-function hello() {
-    console.log("yo")
-}
+
 
 const about = document.getElementById('About')
-console.log(about)
-about.addEventListener('click', hello);
+about.addEventListener('click', pageCreator.changeContent);
+
+const contact = document.getElementById('Contact')
+contact.addEventListener('click', pageCreator.changeContent);
+
+const home = document.getElementById('Home')
+home.addEventListener('click', pageCreator.changeContent);
 
 
 
-pageCreator;
+pageCreator.contenu.innerHTML = siteContent['Home']

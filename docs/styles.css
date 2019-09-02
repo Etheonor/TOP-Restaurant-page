@@ -38,7 +38,7 @@
 
 #title {
     color:white;
-    font-size: 3em;
+    font-size: 2em;
     text-align:center;
     text-shadow: 1px 1px 2px black;
     font-family: 'Roboto Slab';
@@ -56,13 +56,18 @@ body {
 }
 
 #content {
-    background-color: rgba(0, 0, 0, 0.3);;
-    color: white;
-    padding: 25px;
+    padding: 30px;
+    border-radius: 7.5px;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    box-shadow: 0 3px 20px 0 rgba(67,15,108,.1);
     margin: 5em 13em 5em 13em;
-    border-radius: 5px;
-    border : 3px solid rgba(0, 0, 0, 0.5);
     font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+}
+
+#content img {
+    height: 400px;
+    float: left;
+    margin-right: 25px;
 }
 
 #wrapper {
